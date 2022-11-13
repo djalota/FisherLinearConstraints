@@ -1,0 +1,100 @@
+% This file was created by matlab2tikz.
+%
+%The latest updates can be retrieved from
+%  http://www.mathworks.com/matlabcentral/fileexchange/22022-matlab2tikz-matlab2tikz
+%where you can also make suggestions and rate matlab2tikz.
+%
+\definecolor{mycolor1}{rgb}{0.00000,0.44700,0.74100}%
+%
+\begin{tikzpicture}
+
+\begin{axis}[%
+width=6.028in,
+height=4.754in,
+at={(1.011in,0.642in)},
+scale only axis,
+xmin=0,
+xmax=50,
+xlabel style={font=\color{white!15!black}},
+xlabel={Iterations},
+ymin=0,
+ymax=700,
+ylabel style={font=\color{white!15!black}},
+ylabel={Difference in $\lambda$ from Dual Variables: $||\lambda - \sum_t r_t||_2$},
+axis background/.style={fill=white},
+legend style={legend cell align=left, align=left, draw=white!15!black}
+]
+\addplot [color=mycolor1, line width=3.0pt]
+  table[row sep=crcr]{%
+1	627.630263896781\\
+2	587.278159186782\\
+3	575.811634153643\\
+4	543.2511954616\\
+5	511.94302383143\\
+6	498.406191961379\\
+7	477.137024250908\\
+8	454.120227861896\\
+9	429.696979462812\\
+10	400.722449456638\\
+11	374.682761089348\\
+12	354.565909721044\\
+13	335.72904415489\\
+14	316.414959396486\\
+15	297.644346132612\\
+16	277.362274330034\\
+17	256.52029766838\\
+18	236.240656685047\\
+19	209.390199704686\\
+20	186.318421115102\\
+21	165.552369162138\\
+22	147.207880375237\\
+23	121.573041109075\\
+24	96.7491123075729\\
+25	77.6280767682922\\
+26	62.7347176157578\\
+27	50.3834992366051\\
+28	41.3688707197581\\
+29	35.2104602854956\\
+30	29.3485877792463\\
+31	23.270635521797\\
+32	18.7947824142133\\
+33	14.7958207918996\\
+34	12.0056590683138\\
+35	9.70094722542358\\
+36	8.28827614930791\\
+37	7.53807957907298\\
+38	7.03105622108134\\
+39	6.61151656162103\\
+40	6.36660259279223\\
+41	6.07434462969006\\
+42	5.82165474843634\\
+43	5.6401258556318\\
+44	5.51832153756703\\
+45	5.4403654904221\\
+46	5.38177095775626\\
+47	5.32276217627748\\
+48	5.2875346845079\\
+49	5.25750023548547\\
+50	5.23758990377041\\
+};
+\addlegendentry{data1}
+
+\end{axis}
+
+\begin{axis}[%
+width=7.778in,
+height=5.833in,
+at={(0in,0in)},
+scale only axis,
+xmin=0,
+xmax=1,
+ymin=0,
+ymax=1,
+axis line style={draw=none},
+ticks=none,
+axis x line*=bottom,
+axis y line*=left,
+legend style={legend cell align=left, align=left, draw=white!15!black}
+]
+\end{axis}
+\end{tikzpicture}%
